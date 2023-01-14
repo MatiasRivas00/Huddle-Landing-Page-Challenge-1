@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/MatiasRivas00/Huddle-Landing-Page-Challenge-1)
-- Live Site URL: [Add live site URL here](https://matiasrivas00.github.io/Huddle-Landing-Page-Challenge-1/)
+- Solution URL: [https://github.com/MatiasRivas00/Huddle-Landing-Page-Challenge-1](https://github.com/MatiasRivas00/Huddle-Landing-Page-Challenge-1)
+- Live Site URL: [https://matiasrivas00.github.io/Huddle-Landing-Page-Challenge-1/](https://matiasrivas00.github.io/Huddle-Landing-Page-Challenge-1/)
 
 ## My process
 
