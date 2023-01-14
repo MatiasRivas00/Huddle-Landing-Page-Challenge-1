@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/MatiasRivas00/Huddle-Landing-Page-Challenge-1)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -67,7 +67,7 @@ In futures projects I would like to keep learning CSS features and make better l
 
 ### Useful resources
 
-- [CSS Course in Spanish](https://www.example.com) - This course help me to understand a lot of the basics of CSS thank you very much [Jordan Alexande](https://github.com/AlexCGDesign).
+- [CSS Course in Spanish](https://www.example.com) - This course help me to understand a lot of the basics of CSS thank you very much [Jordan Alexander](https://github.com/AlexCGDesign).
 - [Flexbox CheatSheet](https://jonitrythall.com/content/flexboxsheet.pdf) - This is an amazing cheatsheet from [Joni Bologna](https://jonitrythall.com/) helps me a lot to understand flexbox.
 
 ## Author
