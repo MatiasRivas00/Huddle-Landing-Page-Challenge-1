@@ -3,152 +3,143 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
-  
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="./css/style.css">
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-
-  </style>
+  
 </head>
 <body>
-  <header class="header">
+  <header>
     <nav class="nav">
-      <div class="nav__brand">
-        <img src="./img/logo.svg" alt="Huddle Logo" class="nav__logo">
-      </div>
-
-      <div class="nav__menu">
-        <div class="nav__item">
-          <a href="#" class="nav__btn">Try it free</a>
-        </div>
-      </div>
+      <img src="./images/logo.svg" alt="Huddle Logo" class="nav__logo">
+      <button class="nav__btn" >Try It Free</button>
     </nav>
-    
-    <section class="section-intro">
-      <h1 class="section-intro__title">Build The Community Your Fans Will Love</h1>
-      <p class="section-intro__paragraph">
-        Huddle re-imagines the way we build communities. You have a voice, but so does 
-        your audience. Create connections with your users as you engage in genuine discussion.
-      </p>
-
-      <a href="#" class="btn section-intro__btn">Get Started For Free</a>
-
-      <img src="./img/screen-mockups.svg" alt="Mockups image" class="section-intro__img">
-
-      <div class="section-intro__numbers">
-        <div class="numbers">
-          <div class="numbers__icon numbers__icon--communities"></div>
-          <h1 class="numbers__title">1.4k+</h1>
-          <p class="numbers__text">Communities Formed</p>
-        </div>
-        <div class="numbers">
-          <div class="numbers__icon numbers__icon--messages"></div>
-          <h1 class="numbers__title">2.7m+</h1>
-          <p class="numbers__text">Messages Sent</p>
-        </div>
-      </div>
-    </section>
   </header>
 
-  <section class="section-info">
+  <main class="hero">
+    <h1 class="hero__title">Build The Community Your Fans Will Love</h1>
+    <p class="hero__paragraph">
+      Huddle re-imagines the way we build communities. You have a voice, but so does 
+      your audience. Create connections with your users as you engage in genuine discussion. 
+    </p>
+    <button class="hero__btn">Get Started For Free</button>
+    <img src="./images/screen-mockups.svg" alt="show screen mockups for desktop and mobile" class="hero__img">
+    <div class="figures">
 
-    <div class="wave wave__top wave--type1"></div>
+      <div class="figure">
+        <span class="figure__icon figure__icon--communities"></span>
+        <span class="figure__figure">1.4k+</span>
+        <p class="figure__text">Communities Formed</p>
+      </div>
 
-    <article class="info info--blue">
-      <img src="./img/illustration-grow-together.svg" alt="Grow Together" class="info__img">
+      <div class="figure">
+        <span class="figure__icon figure__icon--messages"></span>
+        <span class="figure__figure">2.7m+</span>
+        <p class="figure__text">Messages Sent</p>
+      </div>
+      
+    </div>
+  </main>
+
+  <div class="info">
+    <span class="wave wave--type1 wave__top "></span>
+    <article class="info__item info__item--blue">
       <div class="info__text">
-        <h1 class="info__title">Grow Together</h1>
+        <h2 class="info__title">Grow Together</h2>
         <p class="info__paragraph">
           Generate meaningful discussions with your audience and build a strong, loyal community. 
           Think of the insightful conversations you miss out on with a feedback form. 
         </p>
       </div>
+      <img src="./images/illustration-grow-together.svg" alt="two people watching charts" class="info__img">
     </article>
+    <span class="wave wave--type1 wave__bottom" ></span>
 
-    <div class="wave wave__bottom wave--type1"></div>
-
-    <article class="info">
-      <img src="./img/illustration-flowing-conversation.svg" alt="Flowing Conversations" class="info__img">
+    <article class="info__item">
       <div class="info__text">
-        <h1 class="info__title">Flowing Conversations</h1>
+        <h2 class="info__title">Flowing Conversations</h2>
         <p class="info__paragraph">
           You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
           just-in-time loading for a more natural flow.
         </p>
       </div>
+      <img src="./images/illustration-flowing-conversation.svg" alt="A group of people talking in a park" class="info__img">
     </article>
 
-    <div class="wave wave__top wave--type2"></div>
-    <article class="info info--blue">
-      <img src="./img/illustration-your-users.svg" alt="Your Users" class="info__img">
+    <span class="wave wave--type2 wave__top" src="./images/bg-section-top-desktop-2.svg"></span>
+    <article class="info__item info__item--blue">
       <div class="info__text">
-        <h1 class="info__title">Your Users</h1>
+        <h2 class="info__title">Your Users</h2>
         <p class="info__paragraph">
           It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
-          once signed in to your app, your users can start chatting immediately
+          once signed in to your app, your users can start chatting immediately.
         </p>
       </div>
+      <img src="./images/illustration-your-users.svg" alt="Three people watching comment from community" class="info__img">
     </article>
-    <div class="wave wave__bottom wave--type2"></div>
-  </section>
+    <span class="wave wave--type2 wave__bottom" src="./images/bg-section-bottom-desktop-2.svg"></span>
+  </div>
 
   <section class="question">
-    <h1 class="question__title">Ready To Build Your Community?</h1>
-    <a href="" class="btn question__btn">Get Started For Free</a>
+    <h2 class="question__title">Ready To Build Your Community?</h2>
+    <button class="hero__btn">Get Started For Free</button>
   </section>
 
-  <div class="wave wave__top wave--type3"></div>
-  <footer class="footer">
-    <section class="newsletter">
-      <h1 class="newsletter__title">NEWSLETTER</h1>
-      <p class="newsletter__paragraph">
-        To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
-        send you spam or pass on your email address
-      </p>
-      <form action="#" class="newsletter__form">
-        <input class="newsletter__input-text" type="text" name="email" id="email">
-        <button class="btn newsletter__submit" type="submit">Subscribe</button>
-      </form>
-    </section>
-
-    <section class="contact">
-      <img src="./img/logo-white.svg" alt="Huddle Logo" class="contact__img">
+  <span class="wave wave--type3 wave__top" src="./images/bg-footer-top-desktop.svg"></span>
+  <footer>
+    <div class="contact">
+      <img src="./images/white-logo.svg" alt="white logo of huddle" class="contact__img">
       <p class="contact__paragraph">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
         vestibulum a, ultrices quis sem.
       </p>
-      <div class="contact__item">
-        <div class="contact__icon contact__icon--phone"></div>
-        Phone: +1-543-123-4567
+      <div class="contact__list">
+        <div class="contact__item">
+          <span class="contact__icon contact__icon--phone"></span>
+          <a href="tel:+1-543-123-4567" class="contact__info">Phone: +1-543-123-4567</a>
+        </div>
+
+        <div class="contact__item">
+          <span class="contact__icon contact__icon--email"></span>
+          <a href="mailto:example@huddle.com" class="contact__info">example@huddle.com</a>
+        </div>
       </div>
-      <div class="contact__item">
-        <div class="contact__icon contact__icon--email"></div>
-        example@huddle.com
+      
+      <div class="contact_rrhh">
+        <span class="contact__social contact__social--facebook"></span>
+        <span class="contact__social contact__social--instagram"></span>
+        <span class="contact__social contact__social--twitter"></span>
+      </div>
+    </div>
+
+    <div class="newsletter">
+      <div class="newsletter__text">
+        <p class="newsletter__title">NEWSLETTER</p>
+        <p class="newsletter__paragraph">
+          To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+          send you spam or pass on your email address
+        </p>
       </div>
 
-      <div class="social">
-        <a class="social__item social__item--facebook"></a>
-        <a class="social__item social__item--instagram"></a>
-        <a class="social__item social__item--twitter"></a>
-      </div>
+      <form action="#" class="newsletter__form">
+        <label for="email" hidden>email</label>
+        <input type="email" name="email" id="email" class="newsletter__input">
+        <div class="newsletter__error">Check your mail please</div>
+        <button type="submit" class="newsletter__btn" formnovalidate>Subscribe</button>
+      </form>
+    </div>
+  </footer>
 
-
-    </section>
-
-
-  </footer class="footer"> 
-  <p class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Matias Rivas</a>.
-  </p>
+  <div class="attribution">
+    <p class="attribution__text">
+      Challenge by <a class="attribution__link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a class="attribution__link" href="#">Matias Rivas</a>.
+    </p>
+  </div>
+  <script src="./script.js"></script>
 </body>
 </html>
